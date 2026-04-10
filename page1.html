@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Well-being Survey - Page 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Section 1: Basic Information</h2>
+        <p>Please answer the following questions. Your responses are anonymous.</p>
+
+        <label for="age">What is your age range?</label>
+        <select id="age">
+            <option>Select an option</option>
+            <option>Under 18</option>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-44</option>
+            <option>45+</option>
+        </select>
+
+        <label for="gender">What is your gender?</label>
+        <select id="gender">
+            <option>Prefer not to say</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label for="location">Which region do you currently live in?</label>
+        <input type="text" id="location" placeholder="Enter your region/state">
+
+        <label for="employment">What is your current employment status?</label>
+        <select id="employment">
+            <option>Select an option</option>
+            <option>Employed</option>
+            <option>Self-employed</option>
+            <option>Unemployed</option>
+            <option>Student</option>
+        </select>
+
+        <div class="button-group">
+        <a href="index.html" class="btn">Back</a>
+        <a href="page2.html" class="btn" next>Next</a>
+        </div>
+    </div>
 </body>
 </html>

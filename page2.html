@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Well-being Survey - Page 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Section 2: Living Conditions</h2>
+        <p>Please answer the following questions about your living environment.</p>
+
+        <label for="housing">What type of housing do you live in?</label>
+        <select id="housing">
+            <option>Select an option</option>
+            <option>Apartment</option>
+            <option>Detached house</option>
+            <option>Shared housing</option>
+            <option>Temporary shelter</option>
+        </select>
+
+        <label for="housing-condition">How would your describe your housing condition?</label>
+        <select id="housing-condition">
+            <option>Select an option</option>
+            <option>Very comfortable</option>
+            <option>Adequate</option>
+            <option>Poor</option>
+        </select>
+
+        <label for="household">How many people live in your household?</label>
+        <input type="number" id="household" placeholder="Enter number">
+
+        <label for="water">Do you have regular access to clean water?</label>
+        <select id="water">
+            <option>Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Sometimes</option>
+        </select>
+
+        <label for="electricity">Do you have reliable electricity?</label>
+        <select id="electricity">
+            <option>Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Sometimes</option>
+        </select>
+
+        <label for="safety">How safe do you feel in your neighborhood?</label>
+        <select id="safety">
+            <option>Select an option</option>
+            <option>Very safe</option>
+            <option>Somewhat</option>
+            <option>Not safe</option>
+        </select>
+
+        <label for="sanitation">Do you have access to proper sanitation facilities?</label>
+        <select id="sanitation">
+            <option>Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Sometimes</option>
+        </select>
+
+        <label for="road">How would you rate road and transportation in your area?</label>
+        <select id="road">
+            <option>Select an option</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+        </select>
+
+        <label for="healthcare">Do you have access to healthcare services nearby?</label>
+        <select id="healthcare">
+            <option>Select an option</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Limited access</option>
+        </select>
+
+        <label for="waste">How is waste disposal handled in your area?</label>
+        <select id="waste">
+            <option>Select an option</option>
+            <option>Properly</option>
+            <option>Irregular</option>
+            <option>Poorly managed</option>
+        </select>
+
+        <div class="button-group">
+            <a href="page1.html" class="btn">Back</a>
+            <a href="page3.html" class="btn" next>Next</a>
+        </div>
+    </div>
 </body>
 </html>
