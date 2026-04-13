@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+
     <div class="container">
         <h2>Section 1: Basic Information</h2>
         <p>Please answer the following questions. Your responses are anonymous.</p>
@@ -32,6 +34,15 @@
         <label for="location">Which region do you currently live in?</label>
         <input type="text" id="location" placeholder="Enter your region/state">
 
+        <label for="attention">To confirm you are paying attention, please select "Agree" below.</label>
+        <select id="attention">
+            <option>Select an option</option>
+            <option>Agree</option>
+            <option>Slightly agree</option>
+            <option>Slightly disagree</option>
+            <option>Disagree</option>
+        </select>
+
         <label for="employment">What is your current employment status?</label>
         <select id="employment">
             <option>Select an option</option>
@@ -42,8 +53,8 @@
         </select>
 
         <div class="button-group">
-        <a href="index.html" class="btn">Back</a>
-        <a href="page2.html" class="btn" next>Next</a>
+            <a href="index.html" class="btn">Back</a>
+            <a href="page2.html" class="btn" next>Next</a>
         </div>
     </div>
 </body>
