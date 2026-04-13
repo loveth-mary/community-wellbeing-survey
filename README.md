@@ -47,6 +47,29 @@ Today, I worked on building and styling **Page 1 and Page 2** of my Community We
 Still building this project step by step and using it as a way to learn and apply new concepts as I go.
 
 
+
+
+
+## Progress Update
+
+Over the last 2 days, I worked on Page 3, 4, and 5 of the survey project.
+
+### Updates Added
+- Added Page 3, 4, and 5 survey questions
+- Improved the flow between sections so the pages feel more connected
+- Added a universal section header to keep the design consistent across multiple pages
+- Mixed different input types:
+  - Select options
+  - Text inputs
+  - Textareas
+- Added an attention check to encourage users to read carefully before answering
+- Reduced the number of open-ended questions per page to avoid survey fatigue
+- Improved spacing, layout, and overall responsiveness
+
+### Current Focus
+The survey is being designed to feel more natural and easier to complete while still collecting meaningful responses.
+
+
 Live Demo:
 
 https://loveth-mary.github.io/community-wellbeing-survey/
