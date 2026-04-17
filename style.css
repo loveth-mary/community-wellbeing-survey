@@ -52,6 +52,7 @@ input[type="checkbox"] {
     display: block;
     margin-top: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 .container input, select{
     width: 100%;
@@ -65,4 +66,50 @@ input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 6px 0;
+    width: fit-content;
+}
+.option .input {
+    margin: 0;
+}
+
+.success-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.success-container h2 {
+    margin-bottom: 10px;
+}
+
+.success-container p {
+    margin: 8px 0;
+}
+
+.finish {
+    color: rgb(139, 199, 18);
+}
+
+.exit-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.exit-container h2 {
+    margin-bottom: 10px;
+}
+
+.exit-container p {
+    margin: 8px 0;
 }

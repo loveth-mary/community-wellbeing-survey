@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Well-being Survey - Page 9</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+    <div class="container">
+        <div class="question">
+            <label>Do you have any additional comments or suggestions?</label>
+            <textarea rows="4" placeholder="Share your thoughts here..."></textarea>
+        </div>
+
+        <div class="question">
+            <label>Would you like to be contacted for follow-up (optional)?</label>
+            <label for="option">
+                <input type="radio" name="contact" value="yes">Yes
+            </label>
+
+            <label for="option">
+                <input type="radio" name="contact" value="no">No
+            </label>
+        </div>
+        
+        <div class="button-group">
+            <a href="page8.html" class="btn">Back</a>
+            <a href="success.html" class="btn" next>Next</a>
+        </div>
+    </div>
 </body>
 </html>
