@@ -4,6 +4,7 @@ body{
     margin: 20px;
     background-color: #eef4ff;
 }
+
 .main-header{
     background-color: #111;
     color: #fff;
@@ -12,15 +13,16 @@ body{
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 2px;
-    text-transform: lowercase;
     position: sticky;
     top: 0;
     margin: 0 auto;
     max-width: 580px;
 }
+
 h2{
     color: #4a90e2;
 }
+
 .btn{
     display: inline-block;
     padding: 5px 20px;
@@ -33,13 +35,16 @@ h2{
     border: 1px solid #333;
     transition: 0.5s;
 }
+
 .btn:hover{
     background-color: #357abd;
     transform: scale(1.05);
 }
+
 input[type="checkbox"] {
     margin-right: 8px;
 }
+
 .container{
     max-width: 550px;
     margin: 20px auto;
@@ -48,12 +53,14 @@ input[type="checkbox"] {
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,08);
 }
+
 .container label{
     display: block;
     margin-top: 15px;
     font-weight: bold;
     cursor: pointer;
 }
+
 .container input, select{
     width: 100%;
     padding: 10px;
@@ -62,26 +69,20 @@ input[type="checkbox"] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
 .button-group{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.question {
-    margin-bottom: 20px;
+.container input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
 }
 
-.option {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    margin: 6px 0;
-    width: fit-content;
-}
-.option .input {
-    margin: 0;
+.question {
+    margin-bottom: 20px;
 }
 
 .success-container {
