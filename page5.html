@@ -7,48 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
-    <div class="container">
-        <label for="income">How stable is your income?</label>
-        <select id="income">
-            <option>Select an option</option>
-            <option>Stable</option>
-            <option>Somewhat</option>
-            <option>Unstable</option>
-            <option>No income</option>
-        </select>
+    <form action="page6.html">
+        <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+        <div class="container">
+            <label for="income">How stable is your income?</label>
+            <select id="income" required>
+                <option value="">Select an option</option>
+                <option>Stable</option>
+                <option>Somewhat</option>
+                <option>Unstable</option>
+                <option>No income</option>
+            </select>
 
-        <label for="financial-stress">How often do you experience financial stress?</label>
-        <select id="financial-stress">
-            <option>Select an option</option>
-            <option>Very often</option>
-            <option>Sometimes</option>
-            <option>Rarely</option>
-            <option>Never</option>
-        </select>
+            <label for="financial-stress">How often do you experience financial stress?</label>
+            <select id="financial-stress" required>
+                <option value="">Select an option</option>
+                <option>Very often</option>
+                <option>Sometimes</option>
+                <option>Rarely</option>
+                <option>Never</option>
+            </select>
 
-        <label for="basic-needs">Are you able to meet your basic needs?</label>
-        <select id="basic-needs">
-            <option>Select an option</option>
-            <option>Yes comfortably</option>
-            <option>Yes,  with difficulty</option>
-            <option>No</option>
-        </select>
+            <label for="basic-needs">Are you able to meet your basic needs?</label>
+            <select id="basic-needs" required>
+                <option value="">Select an option</option>
+                <option>Yes comfortably</option>
+                <option>Yes,  with difficulty</option>
+                <option>No</option>
+            </select>
 
-        <label for="borrowing">Have you borrowed money recently to survive?</label>
-        <select id="borrowing">
-            <option>Select an option</option>
-            <option>Yes</option>
-            <option>No</option>
-        </select>
+            <label for="borrowing">Have you borrowed money recently to survive?</label>
+            <select id="borrowing" required>
+                <option value="">Select an option</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
 
-        <label for="changes">What changes would improve your financial situation?</label>
-        <input type="text" id="changes" placeholder="You can describe briefly or skip">
+            <label for="changes">What changes would improve your financial situation?</label>
+            <input type="text" id="changes" placeholder="You can describe briefly or skip">
 
-        <div class="button-group">
-            <a href="page4.html" class="btn">Back</a>
-            <a href="page6.html" class="btn" next>Next</a>
+            <div class="button-group">
+                <a href="page4.html" class="btn">Back</a>
+                <button type="submit" class="btn">Next</button>
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>

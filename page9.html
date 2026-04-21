@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
-    <div class="container">
-        <div class="question">
-            <label>Do you have any additional comments or suggestions?</label>
-            <textarea rows="4" placeholder="Share your thoughts here..."></textarea>
-        </div>
+    <form action="success.html">
+        <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+        <div class="container">
+            <div class="question">
+                <label>Do you have any additional comments or suggestions?</label>
+                <textarea rows="4" placeholder="Share your thoughts here..."></textarea>
+            </div>
 
-        <div class="question">
-            <label>Would you like to be contacted for follow-up (optional)?</label>
-            <label for="option">
-                <input type="radio" name="contact" value="yes">Yes
-            </label>
+            <div class="question">
+                <label>Would you like to be contacted for follow-up (optional)?</label>
+                <label for="option">
+                    <input type="radio" name="contact" value="yes" required>Yes
+                </label>
 
-            <input type="text" placeholder="If yes, enter your email address here!">
+                <input type="text" placeholder="If yes, enter your email address here!">
 
-            <label for="option">
-                <input type="radio" name="contact" value="no">No
-            </label>
+                <label for="option">
+                    <input type="radio" name="contact" value="no">No
+                </label>
+            </div>
+            
+            <div class="button-group">
+                <a href="page8.html" class="btn">Back</a>
+                <button type="submit" class="btn">Next</button>
+            </div>
         </div>
-        
-        <div class="button-group">
-            <a href="page8.html" class="btn">Back</a>
-            <a href="success.html" class="btn" next>Submit</a>
-        </div>
-    </div>
+    </form>
 </body>
 </html>

@@ -7,46 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
-    <div class="container">
-        <label for="living-condition">How would you describe your current living condition?</label>
-        <select id="living-condition">
-            <option>Select an option</option>
-            <option>Comfortable</option>
-            <option>Manageable</option>
-            <option>Difficult</option>
-        </select>
+    <form action="page7.html">
+        <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+        <div class="container">
+            <label for="living-condition">How would you describe your current living condition?</label>
+            <select id="living-condition" required>
+                <option value="">Select an option</option>
+                <option>Comfortable</option>
+                <option>Manageable</option>
+                <option>Difficult</option>
+            </select>
 
-        <label for="financial-security">Do you feel financially secure?</label>
-        <select id="financial-security">
-            <option>Select an option</option>
-            <option>Yes</option>
-            <option>No</option>
-            <option>Not sure</option>
-        </select>
+            <label for="financial-security">Do you feel financially secure?</label>
+            <select id="financial-security" required>
+                <option value="">Select an option</option>
+                <option>Yes</option>
+                <option>No</option>
+                <option>Not sure</option>
+            </select>
 
-        <label for="expenses">How often do unexpected expenses affect you?</label>
-        <select id="expenses">
-            <option>Select an option</option>
-            <option>Very often</option>
-            <option>Sometimes</option>
-            <option>Rarely</option>
-        </select>
+            <label for="expenses">How often do unexpected expenses affect you?</label>
+            <select id="expenses" required>
+                <option value="">Select an option</option>
+                <option>Very often</option>
+                <option>Sometimes</option>
+                <option>Rarely</option>
+            </select>
 
-        <label for="savings">Do you have savings set aside for emergencies?</label>
-        <select id="savings">
-            <option>Select an option</option>
-            <option>Yes</option>
-            <option>No</option>
-        </select>
+            <label for="savings">Do you have savings set aside for emergencies?</label>
+            <select id="savings" required>
+                <option value="">Select an option</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
 
-        <label for="managing">What helps you manage during difficult financial times?</label>
-        <input type="text" id="managing" placeholder="Describe briefly">
-        
-        <div class="button-group">
-            <a href="page5.html" class="btn">Back</a>
-            <a href="page7.html" class="btn" next>Next</a>
+            <label for="managing">What helps you manage during difficult financial times?</label>
+            <input type="text" id="managing" placeholder="Describe briefly">
+            
+            <div class="button-group">
+                <a href="page5.html" class="btn">Back</a>
+                <button type="submit" class="btn">Next</button>
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>

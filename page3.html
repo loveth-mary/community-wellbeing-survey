@@ -7,62 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+    <form action="page4.html">
+        <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+        <div class="container">
+            <h2>Section 3: Health & Well-being</h2>
+            <p>This section focuses on your health and well-being, including access to healthcare and daily wellness.</p>
 
-    <div class="container">
-        <h2>Section 3: Health & Well-being</h2>
-        <p>This section focuses on your health and well-being, including access to healthcare and daily wellness.</p>
+            <label for="well-being">How would you rate youe overall health?</label>
+            <select id="well-being" required>
+                <option value="">Select an option</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Fair</option>
+                <option>Poor</option>
+            </select>
 
-        <label for="well-being">How would you rate youe overall health?</label>
-        <select id="well-being">
-            <option>Select an option</option>
-            <option>Excellent</option>
-            <option>Good</option>
-            <option>Fair</option>
-            <option>Poor</option>
-        </select>
+            <label for="health-services">Do you have access to healthcare services when needed?</label>
+            <select id="health-services" required>
+                <option value="">Select an option</option>
+                <option>Yes, easily</option>
+                <option>Yes, but with difficulty</option>
+                <option>No</option>
+            </select>
 
-        <label for="health-services">Do you have access to healthcare services when needed?</label>
-        <select id="health-services">
-            <option>Select an option</option>
-            <option>Yes, easily</option>
-            <option>Yes, but with difficulty</option>
-            <option>No</option>
-        </select>
+            <label for="facility">How far is the nearest healthcare facility from your home?</label>
+            <select id="facility" required>
+                <option value="">Select an option</option>
+                <option>Less than 1 km</option>
+                <option>1-5 km</option>
+                <option>More than 5 km</option>
+            </select>
 
-        <label for="facility">How far is the nearest healthcare facility from your home?</label>
-        <select id="facility">
-            <option>Select an option</option>
-            <option>Less than 1 km</option>
-            <option>1-5 km</option>
-            <option>More than 5 km</option>
-        </select>
+            <label for="stress">How often do you feel stressed or overwhelmed?</label>
+            <select id="stress" required>
+                <option value="">Select an option</option>
+                <option>Very often</option>
+                <option>Sometimes</option>
+                <option>Rarely</option>
+                <option>Never</option>
+            </select>
 
-        <label for="stress">How often do you feel stressed or overwhelmed?</label>
-        <select id="stress">
-            <option>Select an option</option>
-            <option>Very often</option>
-            <option>Sometimes</option>
-            <option>Rarely</option>
-            <option>Never</option>
-        </select>
+            <label for="sleep">How would you describe your sleep quality?</label>
+            <select id="sleep" required>
+                <option value="">Select an option</option>
+                <option>Very good</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
+            </select>
 
-        <label for="sleep">How would you describe your sleep quality?</label>
-        <select id="sleep">
-            <option>Select an option</option>
-            <option>Very good</option>
-            <option>Good</option>
-            <option>Poor</option>
-            <option>Very poor</option>
-        </select>
-
-        <label for="challenges">What are the biggest health challenges in your community?</label>
-        <input type="text" id="challenges" placeholder="You can describe briefly or skip">
-        
-        <div class="button-group">
-            <a href="page2.html" class="btn">Back</a>
-            <a href="page4.html" class="btn" next>Next</a>
+            <label for="challenges">What are the biggest health challenges in your community?</label>
+            <input type="text" id="challenges" placeholder="You can describe briefly or skip">
+            
+            <div class="button-group">
+                <a href="page2.html" class="btn">Back</a>
+                <button type="submit" class="btn">Next</button>
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 </html>

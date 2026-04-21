@@ -7,58 +7,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
-    <div class="container">
-        <div class="question">
-            <label>Do financial challenges affect your education?</label>
+    <form action="page9.html">
+        <div class="main-header">COMMUNITY WELL-BEING SURVEY</div>
+        <div class="container">
+            <div class="question">
+                <label>Do financial challenges affect your education?</label>
 
-            <label>
-                <input type="radio" name="financial" value="yes">Yes
-            </label>
+                <label>
+                    <input type="radio" name="finance" value="yes" required>Yes
+                </label>
 
-            <label for="option">
-                <input type="radio" name="financial" value="no">No
-            </label>
+                <label for="option">
+                    <input type="radio" name="finance" value="no">No
+                </label>
+            </div>
+
+            <div class="question">
+                <label>Do you have access to learning resources (internet, books, etc.)?</label>
+
+                <label for="option" >
+                    <input type="radio" name="resources" value="yes" required>Yes
+                </label>
+
+                <label for="option" >
+                    <input type="radio" name="resources" value="No">No
+                </label>
+            </div>
+
+            <div class="question">
+                <label>How often do you engage in learning activities?</label>
+                <label for="option">
+                    <input type="radio" name="learning" value="daily" required>Daily
+                </label>
+
+                <label for="option">
+                    <input type="radio" name="learning" value="weekly">Weekly
+                </label>
+
+                <label for="option">
+                    <input type="radio" name="learning" value="occasionally">Occasionally
+                </label>
+
+                <label for="option">
+                    <input type="radio" name="learning" value="rarely">Rarely
+                </label><br>
+
+                <label for="limits">What limits your ability to learn new things?</label>
+                <input type="text" id="limits" placeholder="Type your response here">
+            </div>
+
+            <div class="button-group">
+                <a href="page7.html" class="btn">Back</a>
+                <button type="submit" class="btn">Next</button>
+            </div>
         </div>
-
-        <div class="question">
-            <label>Do you have access to learning resources (internet, books, etc.)?</label>
-
-            <label for="option" >
-                <input type="radio" name="resources" value="yes">Yes
-            </label>
-
-            <label for="option" >
-                <input type="radio" name="resources" value="No">No
-            </label>
-        </div>
-
-        <div class="question">
-            <label>How often do you engage in learning activities?</label>
-            <label for="option">
-                <input type="radio" name="learning" value="daily">Daily
-            </label>
-
-            <label for="option">
-                <input type="radio" name="learning" value="weekly">Weekly
-            </label>
-
-            <label for="option">
-                <input type="radio" name="learning" value="occasionally">Occasionally
-            </label>
-
-            <label for="option">
-                <input type="radio" name="learning" value="rarely">Rarely
-            </label><br>
-
-            <label for="limits">What limits your ability to learn new things?</label>
-            <input type="text" id="limits" placeholder="Type your response here">
-        </div>
-
-        <div class="button-group">
-            <a href="page7.html" class="btn">Back</a>
-            <a href="page9.html" class="btn" next>Next</a>
-        </div>
-    </div>
+    </form>
 </body>
 </html>
