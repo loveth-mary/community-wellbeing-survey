@@ -65,5 +65,5 @@ Connect to backend for real data collection
 
 
 🌐 Live Demo
-👉 https://loveth-mary.github.io/community-wellbeing-survey/⁠�
+👉 https://loveth-mary.github.io/community-wellbeing-survey/
 
